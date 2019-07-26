@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+/* min-height: 100vh; */
+padding-bottom: 50px;
+}
+
+header {
+  padding: 30px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+main{
+  width: 80vw;
+  margin: 0 auto;
+  min-height: calc(115vh - 200px - 50px);
+}
+
+
+#column1 {
+  background-color: lightgrey;
+  width: 25%;
+  border: 2px solid rgb(3, 3, 3);
+  padding: 10px;
+  margin: 5px;
+  float: left;
+  margin-left: 4em;
+}
+#column2 {
+  background-color: lightgrey;
+  width: 25%;
+  border: 2px solid rgb(3, 3, 3);
+  padding: 10px;
+  margin: 5px;
+  float: left;
+  margin-left: 4em;
+}
+#column3 {
+  background-color: lightgrey;
+  width: 25%;
+  border: 2px solid rgb(3, 3, 3);
+  padding: 10px;
+  margin: 5px;
+  float: left;
+  margin-left: 4em;
+}
+
+.titel {
+  text-align: center;
+  background-color: rgb(233, 195, 28);
+  width: 100px;
+  height: 25px;
+}
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  
+  padding: 10px;
+}
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  
+  main{
+    width: 80vw;
+    margin: 0 auto;
+    min-height: calc(107vh - 200px - 50px);
+  }
+  #column1 {
+    background-color: lightgrey;
+    width: 40%;
+    border: 2px solid rgb(3, 3, 3);
+    padding: 10px;
+    margin: 5px;
+
+    margin-left: 2.5em;
+  }
+  #column2 {
+    background-color: lightgrey;
+    width: 40%;
+    border: 2px solid rgb(3, 3, 3);
+    padding: 10px;
+    margin: 2px;
+
+    margin-left: 1em;
+  }
+  #column3 {
+    background-color: lightgrey;
+    width: 84%;
+    border: 2px solid rgb(3, 3, 3);
+    padding: 10px;
+    margin: 5px;
+    margin-top: 0.8em;
+    margin-left: 2.5em;
+  }
+}
+
+@media (max-width: 767px) {
+  main{
+    width: 80vw;
+    margin: 0 auto;
+    min-height: calc(113vh - 200px - 50px);
+  }
+
+  #column1 {
+    background-color: lightgrey;
+    width: 80%;
+    border: 2px solid rgb(3, 3, 3);
+    padding: 10px;
+    margin: 5px;
+
+    margin-left: 2.5em;
+  }
+  #column2 {
+    background-color: lightgrey;
+    width: 80%;
+    border: 2px solid rgb(3, 3, 3);
+    padding: 10px;
+    margin: 5px;
+
+    margin-left: 2.5em;
+  }
+  #column3 {
+    background-color: lightgrey;
+    width: 80%;
+    border: 2px solid rgb(3, 3, 3);
+    padding: 10px;
+    margin: 5px;
+
+    margin-left: 2.5em;
+  }
+}
