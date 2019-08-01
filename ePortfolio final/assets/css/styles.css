@@ -1,0 +1,163 @@
+.navbar{
+    border-style: solid;
+  border-width: 0px 0px 1px 0px;
+}
+
+#promo {
+  text-align: center;
+  padding: 40px;
+  background: url(../../assets/img/header2ok.jpg) no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+}
+
+.jumbotron {
+  border-radius: 10px;
+  padding: 40px;
+  background-color: rgba(255,255,255,0.85);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#logo {
+  max-width: 42px;
+  margin-bottom: 4px;
+  display: inline-block;
+}
+
+.html-icon {
+  font-size: 43px;
+  margin-bottom: 5px;
+  color: rgb(255,107,0);
+}
+
+.css-icon {
+  font-size: 43px;
+  color: rgb(49,146,235);
+  margin-bottom: 5px;
+}
+
+.java-icon {
+  font-size: 43px;
+  color: rgb(255,199,0);
+  margin-top: 5px;
+}
+
+.container h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h4 {
+  margin-bottom: 1.5em;
+}
+
+.container h1 {
+  margin-bottom: 2em;
+  margin-top: 1.2em;
+}
+
+hr {
+  margin-bottom: 3em;
+  margin-top: -2em;
+}
+
+#percent {
+  margin-top: 3em;
+  width: 65%;
+}
+
+.progress-bar {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #148496;
+  transition: width .6s ease;
+}
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: .7rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: .25rem;
+}
+
+@media (min-width: 992px) {
+  .row.project-col {
+    padding: 20px;
+  }
+}
+
+.card.col1 {
+  margin-bottom: 30px;
+}
+
+.card.col2 {
+  margin-bottom: 30px;
+}
+
+.card.col3 {
+  margin-bottom: 30px;
+}
+
+.dark-section {
+  background-color: rgba(23,162,184,0.26);
+}
+
+.project-head {
+  padding-top: 40px;
+ 
+  color: rgb(23,162,184);
+}
+
+.contact {
+  padding: 20px;
+}
+
+.skill-color {
+  color: rgb(23,162,184);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #118092;
+}
+
+.welcome-p {
+  font-size: 25px;
+  color: rgb(91,90,90);
+}
+.h-par{
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.footer-basic {
+  background-color: rgb(211,232,235);
+}
+
+.nav-back {
+  background-color: rgb(211,232,235);
+}
+
+.card-deck{
+  padding: 60px;
+}
+.dark-section {
+  margin-top: 50px;
+}
+
+
