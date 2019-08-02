@@ -1,0 +1,40 @@
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+/* @media (min-width: 768px) {
+.hhi{
+  display: none;
+  
+}
+.ic-1{
+  display: none;
+}
+} */
+.brand{
+  margin-left: 8px;
+}
+
+
+.site-section{
+  text-align: center;
+  padding: 25px;
+}
+
+.site-section-2{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.jumbotron{
+max-width: 1400px;
+padding: 40px;
+margin: 0 auto;
+margin-top: 15px;
+}
+.hhi{
+  text-align: center;
+}
+footer {
+  background-color: gainsboro;
+  margin-top: 150px;
+}
